@@ -8,8 +8,8 @@ let addToList = ()=>{
 let displayList = () =>{
     let str="";
     listElements.forEach((value,index)=>{
-        str+=`<li>.${value}
-              <button onclick='deleteElements(${index})'><i class="bi bi-trash-fill"></i></button></li<br><br>        
+        str+=`<ul><li>${value}
+              <button onclick='deleteElements(${index})'><i class="bi bi-trash-fill"></i></button></li></ul><br><br>        
         `
     })
     list.innerHTML=str;
