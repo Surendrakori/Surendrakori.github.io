@@ -1,0 +1,21 @@
+body{
+    margin:0px;
+    background-image: url(backgroundTodoList.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.whole{
+    margin-left: 800px;
+}
+input{
+    width:200px;
+    height: 30px;
+    border-radius: 7px;
+}
+#btn{
+    height:35px;
+    border-radius: 7px;
+}
