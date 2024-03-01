@@ -9,7 +9,7 @@ let displayList = () =>{
     let str="";
     listElements.forEach((value,index)=>{
         str+=`<ul><li>${value}
-              <button onclick='deleteElements(${index})'><i class="bi bi-trash-fill"></i></button></li></ul><br><br>        
+              <button onclick='deleteElements(${index})'><i class="bi bi-trash-fill"></i></button></li></ul>       
         `
     })
     list.innerHTML=str;
